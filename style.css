@@ -824,11 +824,6 @@ body.active-ng-form-overlay{overflow:hidden}
 .motive-2017 .hp-header.extreme-landscape .header-image{background-position:100% 70%}
 .motive-2017 .hp-header.portrait .header-image,.motive-2017 .hp-header.square .header-image{background-position:90% 100%}
 .motive-2017 .hp-header.extreme-portrait .header-image{background-position:80% 100%}
-html:not(.lt-ie10) .hp-header .header-image{opacity:0;-webkit-animation:fade-in 1.5s 2s forwards;animation:fade-in 1.5s 2s forwards}
-html:not(.lt-ie10) .hp-header .nav-line{opacity:0;-webkit-transform:translate3d(0,0,-100%);-ms-transform:translate3d(0,0,-100%);transform:translate3d(0,0,-100%);-webkit-animation:fade-in-top 1.7s 1.2s forwards;animation:fade-in-top 1.7s 1.2s forwards}
-html:not(.lt-ie10) .hp-header .header-claim h1{opacity:0;-webkit-animation:fade-in 1.8s forwards;animation:fade-in 1.8s forwards}
-html:not(.lt-ie10) .hp-header .header-claim h3{opacity:0;-webkit-animation:fade-in 1.8s .5s forwards;animation:fade-in 1.8s .5s forwards}
-html:not(.lt-ie10) .hp-header .button{opacity:0;-webkit-animation:fade-in 1.8s 1s forwards;animation:fade-in 1.8s 1s forwards}
 body:not(.touched) .hp-header .logo a:hover svg,body:not(.touched) .hp-header .menu .menu-submit:hover span,body:not(.touched) .hp-header .menu a:hover:after{opacity:1}
 body:not(.touched) .hp-header .button a:hover{background-color:rgba(255,255,255,.8);border-color:rgba(255,255,255,.8);color:#2177d0}
 body:not(.touched) .hp-header .arrow a:hover{-webkit-animation:bounce 1.2s infinite;animation:bounce 1.2s infinite}
