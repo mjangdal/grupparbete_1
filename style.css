@@ -1,24 +1,34 @@
 @charset "UTF-8";
 
 /* valesca ccs start */
-.v-header {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1.2s ease-out;
-  }
-  
-.v-header-visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
+
+/* .v-testimonials {
+  opacity: 0;
+  transform: translateZ(-50px);
+  transition: all 2s ease-in-out;
+} */
+.v-testimonials-text {
+  opacity: 0;
+  transform: translateY(-300px);
+  transition: all 3s ease-in;
+}
+
+/* .v-testimonials-visible {
+  opacity: 1;
+  transform: translateZ(0);
+} */
+
+.v-testimonials-text-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .v-white-background {
   background-color: white;
 }
 
-.text-animation .word {
+.v-text-animation .word {
   display: inline-block;
-  /* line-height: 1em; */
 }
 
 .stripe-connect,.task-state{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}
