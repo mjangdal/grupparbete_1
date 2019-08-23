@@ -30,6 +30,17 @@
 .v-text-animation .word {
   display: inline-block;
 }
+/* Martin CSS start */
+.martin{
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateX(-200px);
+}
+.martin-visible{
+  transform: translateX(0);
+  opacity: 1;
+}
+/* Martin CSS slut */
 
 .stripe-connect,.task-state{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}
 .wizard-2,body{min-height:100%}
@@ -4386,4 +4397,23 @@ body.affiliate .hp-header .header-image{background-image:url(/img/portal-2015/hp
 }
 @media all{.wizard-1 .sites a:first-child{margin-top:0}
 .wizard-1 .sites a:last-child{margin-bottom:0}
+}
+
+.top-content{
+    color: black; 
+}
+
+.topcontent{
+    opacity: 0;
+    transform: translateY(-70px); 
+    transition: all 1.3s ease-out;
+}
+
+.topcontent-visible{
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.nav-men, .createbtn{
+    opacity: 0;
 }
