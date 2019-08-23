@@ -9,16 +9,14 @@ function checkVisibility() {
         anime({
           targets: ".v-testimonials",
           scale: [0, 1],
-          opacity: 1,
+          opacity: [0, 1],
           easing: "easeInCubic",
           duration: 1000,
         });
         el.dataset.hasAppeared = 'true';
       }
-      // el.classList.add("v-testimonials-visible");
     } else {
       el.dataset.hasAppeared = 'false';
-      // el.classList.remove("v-testimonials-visible");
     }
   });
 }

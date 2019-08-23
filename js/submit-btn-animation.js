@@ -1,7 +1,7 @@
 // Submit button animation
 
-var submitButtonMouseover = document.querySelector(".v-signup-submit");
-var submitButtonMouseout = document.querySelector(".v-signup-submit");
+let submitButtonMouseover = document.querySelector(".v-signup-submit");
+let submitButtonMouseout = document.querySelector(".v-signup-submit");
 
 submitButtonMouseover.addEventListener("mouseover", function () {
   anime({
