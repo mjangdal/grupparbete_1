@@ -1,6 +1,6 @@
 // Text animation subheading
 let textWrapper = document.querySelector('.v-text-animation-subheading');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+textWrapper.innerHTML = textWrapper.textContent.replace(/\D+/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
   .add({
